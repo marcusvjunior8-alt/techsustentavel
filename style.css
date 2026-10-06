@@ -335,24 +335,96 @@
 /* --- Responsividade (Mobile) --- */
 
 @media (max-width: 768px) {
+
+    /* Header e Navegação */
+    .top {
+        flex-direction: column;
+        max-height: none;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .logo img {
+        width: 140px;
+        margin: 0;
+    }
+
+    .nav {
+        font-size: 16px;
+        gap: 15px;
+        margin-right: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Banner */
+    .introducion {
+        height: 450px;
+    }
+
+    .titulo-banner {
+        top: 8vh;
+        left: 20px;
+        font-size: 1.8rem;
+    }
+
+    .txt-banner {
+        top: 16vh;
+        left: 20px;
+        font-size: 1.1rem;
+        max-width: 90%;
+    }
+
+    /* Seções e Grids */
+    .key-technologies,
+    .ideas_project {
+        padding: 40px 20px;
+    }
+
+    .txts_key,
+    .txts_ideas,
+    .txts_actions {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    /* Cards */
+    .project_ideas,
+    .card_actions,
+    .tech_key {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    .card_actions h3 {
+        min-height: auto;
+    }
+
+    .tech_key img,
+    .project_ideas img,
+    .card_actions img {
+        width: 100%;
+        height: 180px;
+    }
+
+    /* Rodapé */
     .footer-container {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .footer-brand {
+        flex-direction: column;
+    }
+
+    .footer-contact p {
+        justify-content: center;
+    }
+
+    .footer-social {
+        align-items: center;
     }
 }
-  /* Header e Navegação */
-  .top {
-    flex-direction: column;
-    height: auto;
-    padding: 15px 20px;
-    gap: 15px;
-  }
-  .nav{
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    font-size: 15px;
-  }
-  .introducion{
-    margin-top: 20px;
-  }
