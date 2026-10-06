@@ -339,22 +339,23 @@
     /* Header e Navegação */
     .top {
         flex-direction: column;
-        max-height: none;
+        justify-content: center;
         padding: 15px;
         gap: 15px;
     }
 
     .logo img {
-        width: 140px;
-        margin: 0;
+        width: 110px;
+        /* Tamanho otimizado para ecrãs pequenos */
     }
 
     .nav {
-        font-size: 16px;
+        font-size: 0.95rem;
         gap: 15px;
         margin-right: 0;
         flex-wrap: wrap;
         justify-content: center;
+        width: 100%;
     }
 
     /* Banner */
