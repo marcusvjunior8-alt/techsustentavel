@@ -359,20 +359,21 @@
 
     /* Banner */
     .introducion {
-        height: 450px;
+        min-height: 400px;
+        padding: 0 20px;
+        align-items: center;
+        /* Centraliza o texto no celular */
+        text-align: center;
     }
 
     .titulo-banner {
-        top: 8vh;
-        left: 20px;
         font-size: 1.8rem;
+        margin-bottom: 12px;
     }
 
     .txt-banner {
-        top: 16vh;
-        left: 20px;
-        font-size: 1.1rem;
-        max-width: 90%;
+        font-size: 1rem;
+        max-width: 100%;
     }
 
     /* Seções e Grids */
